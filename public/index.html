@@ -10,10 +10,22 @@
     <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 </head>
 <body>
-<form>
-    <label for="yourname">Your Name: </label><input type="text" id="yourname" value="your name here">
-    <button>submit</button>
-</form>
+    <h1>Meetup</h1>
+    <p>A way for wpi students to meetup with eachtother</p>
+    <form>
+        <label for="groupName">Group Name</label>
+        <br>
+        <input type="text" id="groupName">
+        <br>
+        <label for="">Group description</label>
+        <br>
+        <textarea id="groupDescription" rows="10" cols="50"></textarea>
+        <br>
+        <button id="submit-group-info" onclick="submit">submit</button>
+    </form>
+    <div id="groups" class="grid">
+
+    </div>
 
 </body>
 </html>
