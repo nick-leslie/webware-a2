@@ -7,9 +7,10 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "mime": "^2.4.4"
   },
   "engines": {
-    "node":"16.x"
+    "node": "16.x"
   }
 }

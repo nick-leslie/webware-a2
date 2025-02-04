@@ -10,21 +10,30 @@
     <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 </head>
 <body>
-    <h1>Meetup</h1>
-    <p>A way for wpi students to meetup with eachtother</p>
-    <form>
-        <label for="groupName">Group Name</label>
-        <br>
-        <input type="text" id="groupName">
-        <br>
-        <label for="">Group description</label>
-        <br>
-        <textarea id="groupDescription" rows="10" cols="50"></textarea>
-        <br>
-        <button id="submit-group-info" onclick="submit">submit</button>
-    </form>
+    <div class="nav-container">
+        <a class="nav-link" href="/login">Login</a>
+        <a class="nav-link" href="/signup">Signup</a>
+        <button class="nav-link" id="logout">logout</button>
+    </div>
+    <p id="loggedinas"></p>
+    <div class="center-container">
+        <h1>Meetup</h1>
+        <p>A way for wpi students to meetup with each other</p>
+        <form>
+            <label for="groupName">Group Name</label>
+            <br>
+            <input type="text" id="groupName">
+            <br>
+            <label for="">Group description</label>
+            <br>
+            <textarea id="groupDescription" rows="10" cols="50"></textarea>
+            <br>
+            <button id="submit-group-info">submit</button>
+        </form>
+        <div id="warningmessage"></div>
+    </div>
     <div id="groups" class="grid">
-
+        {groups}
     </div>
 
 </body>

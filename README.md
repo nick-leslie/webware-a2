@@ -94,7 +94,9 @@ Sample Readme (delete the above when you're ready to submit, and modify the belo
 Include a very brief summary of your project here. Be sure to include the CSS positioning technique you used, and any required instructions to use your application.
 
 ## Technical Achievements
-- **Tech Achievement 1**: Using a combination of...
+- use bycrypt to securly store passwords
+- implmented server side rendering 
+- used cookies to store session info
 
 ### Design/Evaluation Achievements
 - **Design Achievement 1**: 
