@@ -90,13 +90,14 @@ You'll need to use some type of collaborative software like Zoom that will enabl
 Sample Readme (delete the above when you're ready to submit, and modify the below so with your links and descriptions)
 ---
 
-## Your Web Application Title
-Include a very brief summary of your project here. Be sure to include the CSS positioning technique you used, and any required instructions to use your application.
 
+## Meetup
+A way for for wpi students to advertise there group
+url:a1-nick-leslie.glitch.me
 ## Technical Achievements
 - use bycrypt to securly store passwords
-- implmented server side rendering 
+- implmented server side rendering
 - used cookies to store session info
 
 ### Design/Evaluation Achievements
-- **Design Achievement 1**: 
+I decided not to do any styling achevments
