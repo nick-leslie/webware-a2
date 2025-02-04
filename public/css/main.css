@@ -1,6 +1,10 @@
 body {
     background:black;
     color:white;
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 
@@ -9,6 +13,20 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.submit {
+    text-decoration: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    border: 0.2rem solid white;
+    color: white;
+    background: black;
+}
+
+#warningmessage {
+    color: red;
+}
 
 .nav-link {
     text-decoration: none;
@@ -25,6 +43,12 @@ body {
   display: flex;
   gap: 1rem;
 }
+.form-container {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+
 
 
 .center-container  {

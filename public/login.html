@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <script src="js/main.js"></script>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Karla:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 
     <!-- get rid of favicon error -->
     <link rel="icon" href="data:;base64,iVBORw0KGgo=">
@@ -17,7 +20,7 @@
         <h1>Meetup</h1>
         <p>A way for wpi students to meetup with each other</p>
         <h1>Login</h1>
-        <form>
+        <form class="form-container col">
             <label for="useringfo">Username</label>
             <br>
             <input type="text" id="username">
@@ -26,7 +29,9 @@
             <br>
             <input type="password" id="password">
             <br>
-            <button id="login" onclick="login">submit</button>
+            <div class="center-container">
+                <button class="submit" id="login" onclick="login">submit</button>
+            </div>
         </form>
     </div>
 </body>
